@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F5F6FA; 
+    margin: 0;
+    padding: 20px;
+    color: #2F3640; 
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background: #FFFFFF; 
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #4A90E2; 
+    margin-bottom: 20px;
+  }
+  
+  .request, .body-section {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .request label, .body-section label {
+    font-weight: bold;
+    color: #2F3640; 
+  }
+  
+  .request input, .request select, textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #7ED6DF; 
+    border-radius: 6px;
+    background-color: #FFFFFF; 
+    color: #2F3640;
+  }
+  
+  textarea {
+    min-height: 80px;
+  }
+  
+  button {
+    background-color: #4A90E2; 
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #7ED6DF; 
+    color: #2F3640;
+  }
+  
+  .response {
+    background: #FFFFFF; 
+    padding: 20px;
+    border: 1px solid #4A90E2;
+    border-radius: 8px;
+  }
+  
+  .response h2, .response h3 {
+    margin: 8px 0;
+    color: #4A90E2;
+  }
+  
+  pre {
+    background: #F5F6FA; 
+    color: #2F3640;
+    padding: 12px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-size: 14px;
+  }
+  
+  .error {
+    color: #FF6B6B; 
+    font-weight: bold;
+    margin-top: 12px;
+  }
+  
