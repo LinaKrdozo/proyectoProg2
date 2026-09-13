@@ -9,8 +9,6 @@
 <body>
   <div class="container">
     <h1>API CLIENT</h1>
-
-    <!-- Sección de solicitud -->
     <div class="request">
       <label for="metodo">Método:</label>
       <select id="metodo">
@@ -19,22 +17,15 @@
         <option value="PUT">PUT</option>
         <option value="DELETE">DELETE</option>
       </select>
-
       <label for="url">URL:</label>
       <input type="url" id="url" placeholder="https://ejemplo.com/recurso" required>
-
       <button onclick="ejecutarSolicitud()">EJECUTAR</button>
     </div>
-
-    <!-- Sección de Body -->
     <div class="body-section">
       <label for="body">Body (JSON):</label>
       <textarea id="body" placeholder='{"name":"Ejemplo"}'></textarea>
-      <!-- Mensaje dinámico -->
       <p id="mensaje-body" class="info"></p>
     </div>
-
-    <!-- Sección de respuesta -->
     <div class="response">
       <h2>STATUS: <span id="status">--</span></h2>
       <h3>Tiempo de respuesta: <span id="time">-- ms</span></h3>
@@ -43,7 +34,6 @@
       <p id="error" class="error"></p>
     </div>
   </div>
-
   <script src="app.js"></script>
 </body>
 </html>

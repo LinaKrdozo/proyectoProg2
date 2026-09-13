@@ -1,4 +1,3 @@
-// Función principal
 async function ejecutarSolicitud() {
     const metodo = document.getElementById("metodo").value;
     const url = document.getElementById("url").value.trim();
